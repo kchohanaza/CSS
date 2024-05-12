@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Inheritance</title>
+    <style>
+      div {
+          padding: 1rem;
+          border: 2px solid green;
+          color: grey;
+      }
+		
+      p {
+        /* Create you two style declarations here, so that the 
+        paragraph element inherts the padding and 
+        border properties from its parent. */
+        padding: inherit;
+        border: inherit;
+        
+      }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Heading</h1>
+        <p>The heading and text inherit the color from the div by default, but not the border or padding.</p>
+    </div>
+</body>
+</html>

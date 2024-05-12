@@ -1,0 +1,19 @@
+.parent {
+    padding: 25px;
+    margin: 30px;
+    background: lightgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.child1 {
+    background: whitesmoke;
+    height: 20px;
+    padding: inherit ;
+    border: inherit ;
+}
+.child2 {
+    background: lightblue;
+    height: 20px;
+    margin: inherit ;
+    border: inherit ;
+}
