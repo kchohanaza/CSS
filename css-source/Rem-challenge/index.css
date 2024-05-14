@@ -1,0 +1,30 @@
+.rembox1 {
+    background: red;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 5rem;
+    height: 5rem;
+}
+.rembox2 {
+    background: green;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 10rem;
+    height: 1orem;
+}
+.rembox3 {
+    background: blue;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 20rem;
+    height: 20rem;
+}
+p {
+    text-align: center;
+    background: white;
+    padding: 5px;
+    max-width: 70px;
+    position: relative;
+    margin: 10px auto;
+    border: 1px solid black;
+}

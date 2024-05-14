@@ -1,0 +1,14 @@
+/* CSS code to make div circular and visible */
+div {
+    background-color: red;
+    border-radius: 50px;
+    
+  }
+  
+  /* Write your circle CSS class code below*/
+  .circle{
+    width: 100px;
+    height: 100px;
+    
+  }
+  

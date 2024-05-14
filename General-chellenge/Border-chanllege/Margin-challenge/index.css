@@ -1,0 +1,9 @@
+.outer {
+	border: 1px solid black;
+}
+.box {
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+    margin-left: 50px;
+}

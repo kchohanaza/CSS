@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Font Color</title>
+    <style>
+    	header {
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		}
+		article {
+			font-family: Verdana, Geneva, sans-serif;
+		}
+		
+		.keyword {
+			/* Write your declaration here */
+			color: blue;
+			/* Where a color has already been defined you can refer to it using the currentColor value for any other properties that accept a value. A border is one such property which will be covered in upcoming lessons */
+			border: 1px solid currentColor;
+		}
+		
+		.rgb {
+			/* Write your declaration here */
+			color: rgb(0, 0, 255);
+		}
+		
+		.hex {
+			/* Write your declaration here */
+			color: 0000FF;
+		}
+		
+		.hsl {
+			/* Write your declaration here */
+			color: (240, 100%, 50%);
+		}
+    </style>
+  </head>
+  
+  <body>
+    <section class="keyword">
+		<header>
+			<h1>Keyword</h1>
+		</header>
+		<article>
+			<p>All browsers support 140 different colors by keyword.</p>
+		</article>
+    </section>
+    <section>
+		<header>
+			<h1>RGB</h1>
+		</header>
+		<article class="rgb">
+			<p>All browsers support color by red green blue (RGB) values. The format for using this is <code>rgb(red, green, blue)</code>. The intensity of each color ranges from 0 to 255 allowing 16.7 million color choices.</p>
+		</article>
+    </section>
+    <section>
+		<header>
+			<h1>Hexadecimal</h1>
+		</header>
+		<article class="hex">
+			<p>All browsers support color by Hexadecimal (HEX) values. The format for using this is <code>#RRGGBB</code>. RR (red), GG (green) and BB (blue) are hexadecimal integers between 00 and FF specifying the intensity of the color.</p>
+		</article>
+    </section>
+    <section>
+		<header>
+			<h1>HSL</h1>
+		</header>
+		<article class="hsl">
+			<p>Modern browsers support HSL. The format for using this is <code>hsl(hue, saturation, lightness)</code>. Hue is a color wheel so has 360 degrees where 0 is red, 120 is green and, 240 is blue. Saturation ranges from monochrome at 0% to full color at 100%. Lightness ranges from dark at 0% to white at 100%. A lightness of 50% would be used for a solid color.</p>
+		</article>
+    </section>
+  </body>
+</html>
