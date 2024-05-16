@@ -1,0 +1,21 @@
+.fixed-top {
+    height: 50px;
+    width: 100%;
+    background: purple;
+    opacity: 0.5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+}
+
+.fixed-bottom {
+    height: 50px;
+    width: 100%;
+    background: green;
+    opacity: 0.5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
